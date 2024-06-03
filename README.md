@@ -26,3 +26,28 @@ POSSÍVEIS ERROS:
 Se você estiver vendo o seguinte erro: ERROR:    Error loading ASGI app. Could not import module "main".
 Certifique-se de que você está no diretório correto onde o arquivo main.py está localizado.
 
+ENGLISH:
+
+REQUIREMENTS:
+DOWNLOAD the Postman app (verifier and code execution environment)
+DOWNLOAD the libraries (FASTAPI = "API Creation", Uvicorn = "Localhost Server", google.generativeai = "AI"
+
+This code refers to a Back-End API of a Banco Banese assistant who is able to answer any questions related to problems and doubts about Banco Banese 
+
+Using Google Gemini, an AI, we had support with prompt responses so that the user could be answered complex questions, for example, also making immersion with the user more dynamic and practical.
+The Back-End Project was carried out together with representatives from Banco Banese, where they allowed us to create these solutions for the problems they experience on their website/app
+
+Within the POSTMAN app, using the POST method: 
+The user, using JSON data, asks questions based on criteria related to the Bank, and when you press Send, you also get your answer in the Json method
+EX: 
+{
+    "message": "Hello, please identify yourself"
+}
+
+EXECUTION:
+After installing the requirements, use the following command in the IDE terminal or Command Prompt, it creates localhost thanks to FastAPI which provides the link with localhost which, after the command generates this code, must be inserted within the POSTMAN app:
+"uvicorn main:app --reload"
+
+POSSIBLE ERRORS:
+If you are seeing the following error: ERROR: Error loading ASGI app. Could not import module "main".
+Make sure you are in the correct directory where the main.py file is located.
