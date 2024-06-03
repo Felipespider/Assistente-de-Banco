@@ -28,7 +28,7 @@ Certifique-se de que você está no diretório correto onde o arquivo main.py es
 
 
 
-ENGLISH:
+# ENGLISH:
 
 REQUIREMENTS:
 DOWNLOAD the Postman app (verifier and code execution environment)
